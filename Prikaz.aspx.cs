@@ -45,7 +45,6 @@ namespace Prodavnica_Artikl
                 Label2.Text += reader["Naziv"].ToString();
                 Label2.Text += " ";
             }
-            Label2.Text += DropDownList1.SelectedValue;
         }
     }
 }

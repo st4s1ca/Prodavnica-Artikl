@@ -5,7 +5,7 @@
     <div class="jumbotron">
         
         <br />
-        <table style="width:100%; padding=2.5px;">
+        <table style="width:100%; padding:2.5px;">
             <tr>
                 <td>
         <asp:Label ID="Label1" runat="server" Text="Artikl:"></asp:Label>

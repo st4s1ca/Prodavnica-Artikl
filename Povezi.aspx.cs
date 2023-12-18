@@ -51,10 +51,11 @@ namespace Prodavnica_Artikl
         {
             SqlCommand cmd = Connection.GetCommand("povezi");
             cmd.Parameters.Clear();
-            cmd.Parameters.AddWithValue("@id_artikla", DropDownList1.SelectedValue);
-            cmd.Parameters.AddWithValue("@id_prodavnica", DropDownList2.SelectedValue);
-            Label1.Text = "Promenjeno!";
+            cmd.Parameters.AddWithValue("@id_prodavnica", DropDownList1.SelectedValue);
+            cmd.Parameters.AddWithValue("@id_artikla", DropDownList2.SelectedValue);
+            
             cmd.ExecuteNonQuery();
+            Label1.Text = "Promenjeno!";
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)

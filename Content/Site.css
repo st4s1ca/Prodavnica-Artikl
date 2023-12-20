@@ -29,3 +29,14 @@ textarea {
         padding: 0;
     }
 }
+
+body{
+    background-color: lightcoral;
+    color: black;
+}
+
+.jumbotron{
+}
+.navbar{
+    color: rosybrown;
+}
